@@ -6,7 +6,7 @@ package 'git' do
 	action :install
 end	
 
-
+package 'emac'
 
 
 
