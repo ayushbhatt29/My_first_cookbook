@@ -6,7 +6,11 @@ package 'git' do
 	action :install
 end	
 
-package 'emac'
+template '/etc/motd' do
+ source 'motd.erb'
+# variables ( :name=> 'ayush_bhatt' )
+ action :create
+end
 
 
 

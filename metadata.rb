@@ -1,10 +1,10 @@
-name 'workstation'
+name 'My_first_cookbook'
 maintainer 'The Authors'
 maintainer_email 'you@example.com'
 license 'All Rights Reserved'
 description 'Installs/Configures workstation'
 long_description 'Installs/Configures workstation'
-version '0.2.0'
+version '0.2.1'
 chef_version '>= 13.0'
 
 # The `issues_url` points to the location where issues for this cookbook are
